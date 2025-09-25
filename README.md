@@ -2,8 +2,6 @@
 
 A real-time collaborative document editor built with Spring Boot WebSocket backend and React frontend, featuring Redis for scalable multi-server deployment.
 
-![CollabEdit Logo](https://via.placeholder.com/800x200/4f46e5/white?text=CollabEdit+%7C+Real-time+Collaboration)
-
 ## 🌟 Features
 
 - **Real-time Collaboration**: Multiple users can edit the same document simultaneously
@@ -139,17 +137,10 @@ Expected output:
 ![Home Page](https://via.placeholder.com/800x600/f8fafc/374151?text=Home+Page+%7C+Document+Selection)
 *The landing page where users can create or join existing documents*
 
-### Document Editor - Single User
-![Single User Editor](https://via.placeholder.com/800x600/ffffff/374151?text=Document+Editor+%7C+Single+User+View)
-*Clean, Google Docs-inspired interface for document editing*
+### Document Editor - Multi-User test
+![Multi-Client Collaborative Editor Test](screenshots/multi-client-test.png)
 
-### Document Editor - Multiple Users
-![Multi User Editor](https://via.placeholder.com/800x600/ffffff/374151?text=Document+Editor+%7C+Multiple+Users+Collaboration)
-*Real-time collaboration with multiple users editing simultaneously*
-
-### Connection Status Indicators
-![Connection Status](https://via.placeholder.com/400x300/22c55e/ffffff?text=Connected+%7C+Real-time+Status)
-*Connection quality and status indicators*
+![System Log - Real-time events](screenshots/system-log.png)
 
 ### Terminal Output - Backend Services
 ```bash
